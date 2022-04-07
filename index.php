@@ -27,7 +27,7 @@
         <h3><?php echo 'lunghezza paragrafo: ' . strlen($text) ?></h3>
 
         <!-- ristampo variabile sostituendo la parola ottenuta dal GET -->
-        <p><?php echo str_replace(htmlspecialchars($word), '***', strtolower($text)) ?></p>
+        <p><?php echo str_replace(htmlspecialchars(strtolower($word)), '***', strtolower($text)) ?></p>
 
     </body>
 </html>
