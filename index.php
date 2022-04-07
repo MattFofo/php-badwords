@@ -11,9 +11,14 @@
             $word = $_GET["word"];
             $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia labore accusantium, omnis aspernatur qui voluptatum hic, voluptates, rerum numquam repellendus quia earum consequatur. Repellendus libero praesentium ut perspiciatis sapiente?';
         ?>
+        <!-- form per prendere input utente e trasmetterlo -->
+        <form action="index.php" method="GET">
+            <input type="text" name="word">
+            <input type="submit">
+        </form>
 
         <!-- stampo parola ottenuta dal GET -->
-        <h1><?php echo htmlspecialchars($word) ?></h1>
+        <h1><?php echo 'parola da censurare: ' . htmlspecialchars($word) ?></h1>
 
         <!-- stampo variabile -->
         <p><?php echo $text ?></p>
