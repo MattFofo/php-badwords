@@ -13,7 +13,7 @@
                 $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt mollitia labore accusantium, omnis aspernatur qui voluptatum hic, voluptates, rerum numquam repellendus quia earum consequatur. Repellendus libero praesentium ut perspiciatis sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. In laudantium, numquam vitae aspernatur ex perspiciatis sequi nostrum necessitatibus alias iusto ipsa illum neque odio quaerat, accusamus aut omnis quos error! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sit quam, cum eaque obcaecati, quaerat maxime rem, placeat ab neque officiis pariatur aliquam fugit ullam minus quidem assumenda reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita id deserunt recusandae assumenda rerum atque voluptatibus, similique odit! Suscipit libero blanditiis aliquid necessitatibus quam laboriosam corporis, delectus est fuga!';
             ?>
             <!-- form per prendere input utente e trasmetterlo -->
-            <form action="index.php" method="GET" style="background-color: lightpink; width: 100%; text-align: center; padding: 2rem">
+            <form action="" method="GET" style="background-color: lightpink; width: 100%; text-align: center; padding: 2rem">
                 Inserisci parola da censurare <input type="text" name="word">
                 <input type="submit">
             </form>
